@@ -99,9 +99,16 @@ class MainApp extends StatelessWidget {
                 onPressed: () {
                   print("Поделиться");
                 },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.black,
+                  ),
                   child: Row(children: [
                     Icon(Icons.share_rounded, color: Colors.white),
-                    Text('Поделиться творением')
+                    SizedBox(width: 10),
+                    Text(
+                      'Поделиться творением',
+                      style: TextStyle(color: Colors.white),
+                    ),
                   ]),
               ),
               )
