@@ -39,7 +39,7 @@ class MainApp extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Container(
-                    width: 200, // Specify the width of the button
+                    width: 200,
                     child: ElevatedButton(
               onPressed: () {
                 print('Change pic');
@@ -47,7 +47,12 @@ class MainApp extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text('Поменять картинку'),
+                          Text(
+                            'Поменять картинку',
+                            style: TextStyle(
+                                color: Color.fromARGB(
+                                    255, 82, 87, 99)), // Text color
+                          ),
                         ],
                       ),
                     ),
