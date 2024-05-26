@@ -93,7 +93,10 @@ class MainApp extends StatelessWidget {
                 onPressed: () {
                   print("Поделиться");
                 },
-                child: Text('Поделиться творением'),
+                  child: Row(children: [
+                    Icon(Icons.share_rounded, color: Colors.white),
+                    Text('Поделиться творением')
+                  ]),
               ),
               )
           ],
