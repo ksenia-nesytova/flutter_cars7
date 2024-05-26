@@ -67,7 +67,7 @@ class MainApp extends StatelessWidget {
                   children: [
                     Row(
                       children: [
-                        Icon(Icons.inbox_rounded, color: Colors.white),
+                        Icon(Icons.info_rounded, color: Colors.white),
                         SizedBox(width: 8),
                         Text(
                           "Дополнительная информация",
