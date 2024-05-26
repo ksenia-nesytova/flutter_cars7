@@ -74,12 +74,15 @@ class MainApp extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 30),
-            ElevatedButton(
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
                 onPressed: () {
                   print("Поделиться");
                 },
                 child: Text('Поделиться творением'),
               ),
+              )
           ],
           ),
         ),
