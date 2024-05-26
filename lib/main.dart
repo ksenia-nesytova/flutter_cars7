@@ -13,6 +13,7 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
             child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
           children: [
               Text(
                 'Творчество',
