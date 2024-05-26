@@ -23,6 +23,7 @@ class MainApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              SizedBox(height: 30),
             Container(
               height: 335,
               width: 335,
@@ -31,12 +32,14 @@ class MainApp extends StatelessWidget {
                   borderRadius: BorderRadius.circular(24.36),
                 ),
             ),
+              SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
                 print('Change pic');
               },
               child: Text('Поменять картинку'),
             ),
+              SizedBox(height: 20),
             Container(
               height: 88,
               width: 335,
@@ -59,12 +62,17 @@ class MainApp extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),
             ),
+                      ],
+                    ),
+                    SizedBox(height: 6),
                     Text(
                       'Промокод можно передвинуть куда пожелаете и поделиться своим творением.',
                       style: TextStyle(color: Colors.white),
                     ),
                   ],
                 ),
+              ),
+              SizedBox(height: 30),
             ElevatedButton(
                 onPressed: () {
                   print("Поделиться");
