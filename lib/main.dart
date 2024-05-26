@@ -40,6 +40,8 @@ class MainApp extends StatelessWidget {
             Container(
               height: 88,
               width: 335,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(16),
               color: Colors.black38,
               child: Text("Дополнительная информация"),
             ),
