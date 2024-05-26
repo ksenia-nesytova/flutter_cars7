@@ -59,14 +59,20 @@ class MainApp extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),
             ),
+                    Text(
+                      'Промокод можно передвинуть куда пожелаете и поделиться своим творением.',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ],
+                ),
             ElevatedButton(
                 onPressed: () {
                   print("Поделиться");
                 },
-                child: Text('Поделиться творением'))
+                child: Text('Поделиться творением'),
+              ),
           ],
-        )
-            // child: Text('Hello World!'),
+          ),
         ),
       ),
     );
