@@ -27,8 +27,9 @@ class MainApp extends StatelessWidget {
               height: 335,
               width: 335,
               decoration: BoxDecoration(
-                  color: Colors.deepOrange,
-                  borderRadius: BorderRadius.circular(24.36)),
+                  color: const Color.fromARGB(255, 211, 205, 204),
+                  borderRadius: BorderRadius.circular(24.36),
+                ),
             ),
             ElevatedButton(
               onPressed: () {
