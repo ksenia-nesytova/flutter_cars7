@@ -43,7 +43,21 @@ class MainApp extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(16),
               color: Colors.black38,
-              child: Text("Дополнительная информация"),
+                ),
+                padding: EdgeInsets.all(8.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        Icon(Icons.inbox_rounded, color: Colors.white),
+                        SizedBox(width: 8),
+                        Text(
+                          "Дополнительная информация",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),
             ),
             ElevatedButton(
                 onPressed: () {
