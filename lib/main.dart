@@ -11,7 +11,8 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Center(
+        body: Padding(
+          padding: EdgeInsets.all(20.0), // Adjust the padding as needed
             child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
           children: [
