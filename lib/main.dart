@@ -14,7 +14,15 @@ class MainApp extends StatelessWidget {
         body: Center(
             child: Column(
           children: [
-            Title(color: Colors.green, child: Text('Творчество')),
+              Text(
+                'Творчество',
+                style: TextStyle(
+                  color: Color.fromARGB(255, 49, 64, 120),
+                  fontSize: 22,
+                  height: 1.3,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             Container(
               height: 335,
               width: 335,
