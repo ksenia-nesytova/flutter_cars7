@@ -34,11 +34,24 @@ class MainApp extends StatelessWidget {
                 ),
             ),
               SizedBox(height: 20),
-            ElevatedButton(
+              Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Container(
+                    width: 200, // Specify the width of the button
+                    child: ElevatedButton(
               onPressed: () {
                 print('Change pic');
               },
-              child: Text('Поменять картинку'),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text('Поменять картинку'),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
             ),
               SizedBox(height: 20),
             Container(
